@@ -1,0 +1,19 @@
+.content{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap:nowrap;   
+}
+#contenu {
+    flex: 2;
+}
+#actu{
+    flex: 1;
+}
+.news h1 {
+    background-color: aqua;
+    color: 1px solid black;
+}
+.news p {
+    background-color: rgb(0, 255, 13);
+    border: 1px solid rgb(255, 0, 0);
+}
